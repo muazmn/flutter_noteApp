@@ -41,3 +41,9 @@ CHAPTER 14
 CHAPTER 15
 - refer to github folder in kelasfullstackdev
 - GPG Keys : 
+
+CHAPTER 16 
+- BuildContext : like a packaged bit of information that we use to pass data from one widget to other and it's very useful when we using bloc
+
+CHAPTER 17 
+ - Named routed : we tell flutter about that route so when we initialize project, the flutter knows the route's name. 
