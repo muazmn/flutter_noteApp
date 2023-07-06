@@ -27,7 +27,7 @@ CHAPTER 12
  - this chapter explain about widget like Columns, Text, FutureBuilder, TextField, Container, AppBar, TextContent
  - stateless :  it can't contain mutable information
  - stateful : something we can see on screen and it can contain information that can be changes as the user interact with it
- - scaffold : like basic building structure that kind of makes a presentable to user
+ - scaffold : like basic building structure that kind of makes a presentable to user, if we dont wrap with scaffold, flutter don't know which theme or font we use that's eventually make our application looks so weird
  - make password text field secure : obscureText: true,enableSuggestions: false,autocorrect: false
  - firebase needs initialization before other calls to firebase, we also need to enabling widget binding before Firebase.initializaApp, (read doc)
  - FutureBuilder : it takes and perform the future, once succed or rejected, it will give callback that ask us to produce a widget that will displays to the user depending on state.
@@ -48,3 +48,8 @@ CHAPTER 16
 CHAPTER 17 
  - Named routed : we tell flutter about that route so when we initialize project, the flutter knows the route's name. 
  test
+
+ CHAPTER 18 
+  - AppBar : able to display title, appbar also has it own theme
+  - import 'dart:developer' show log: means import specific packet of this package called log
+  - use log instead of print coz log can show a little bit more distinct code than the debug code
