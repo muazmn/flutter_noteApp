@@ -53,3 +53,7 @@ CHAPTER 17
   - AppBar : able to display title, appbar also has it own theme
   - import 'dart:developer' show log: means import specific packet of this package called log
   - use log instead of print coz log can show a little bit more distinct code than the debug code
+
+CHAPTER 19
+ - pushNamedAndRemoveUntil : 1 pushName = it has a route and we're trying to push that using its name
+                             2 removeUntil = remove the previous views that we don't need from the view stack

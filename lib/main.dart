@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login/': (context) => const LoginView(),
         '/register/': (context) => const RegisterView(),
+        '/notes/': (context) => NotesView(),
       },
     );
   }
@@ -111,10 +112,15 @@ Future<bool> showLogOutDialog(BuildContext context) {
             content: const Text("are sure you want to sign out?"),
             actions: [
               TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                  },
+                  child: const Text('cancel')),
+              TextButton(
                 onPressed: () {
-                  Navigator.of(context).pop(false);
+                  Navigator.of(context).pop(true);
                 },
-                child: const Text('Log out'),
+                child: const Text('Logout'),
               ),
             ]);
       }).then((value) => value ?? false);
