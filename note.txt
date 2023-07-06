@@ -57,3 +57,6 @@ CHAPTER 17
 CHAPTER 19
  - pushNamedAndRemoveUntil : 1 pushName = it has a route and we're trying to push that using its name
                              2 removeUntil = remove the previous views that we don't need from the view stack
+
+CHAPTER 20 
+ - hardcoding : 
