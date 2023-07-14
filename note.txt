@@ -60,3 +60,6 @@ CHAPTER 19
 
 CHAPTER 20 
  - hardcoding : 
+ CHAPTER 24
+ - We shoudn't expose Firebase's user to the UI
+ - @immutable : means that class or subclasses are immutable meaning that the internal are never gonna be change upon initialization, they also can't have any field that change
