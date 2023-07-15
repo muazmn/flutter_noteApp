@@ -1,4 +1,4 @@
-package se.pixolity.flutter_docbook
+package com.example.flutter_docbook
 
 import io.flutter.embedding.android.FlutterActivity
 

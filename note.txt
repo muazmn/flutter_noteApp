@@ -1,0 +1,75 @@
+ - maps in dart like object in js 
+ - sets like object but it just can has value with same type only. 
+
+CHAPTER 5
+ - null is not a value but it absense of a value
+  refer null on dart documentation like how we can making any type nullable and cherry picking non-null values and null-aware assignment operator
+
+CHAPTER 6 
+ - enumaration is make sure that a value has a name that can be programmatically refer to. it also can described as a set of related constant. 
+ - factory constructor : a way to construct an instance of class, if we wanna create instance of class multiple times in different places using the same name of constructor argument, so we need factory, please read docs
+
+  custom operator
+  hashcode 
+
+CHAPTER 7 
+ - extension : we use it if we belive that function that added to a class, it doesn't really belong in that class itself, but it may for instance belong current source file
+ - future: use it when we wanna use asynchronous, and we need use async await when we make instance of this future
+ - stream: is a pipe of data that either successful(complete) or err or (never complete), stream of data never complete is like time coz it just continously going forward, stream is like a future just continue its working continusly, and we use await for to get it result
+ - generators: 
+ - generics: to avoid re-writing code, like we can give any argument to the instance and dart will decide the type of their data automatically
+
+CHAPTER 11
+ firebase cli
+ - when we integrate our project with firebase, we need to create a firebase project on something called firebase console 
+
+CHAPTER 12 
+ - this chapter explain about widget like Columns, Text, FutureBuilder, TextField, Container, AppBar, TextContent
+ - stateless :  it can't contain mutable information
+ - stateful : something we can see on screen and it can contain information that can be changes as the user interact with it
+ - scaffold : like basic building structure that kind of makes a presentable to user, if we dont wrap with scaffold, flutter don't know which theme or font we use that's eventually make our application looks so weird
+ - make password text field secure : obscureText: true,enableSuggestions: false,autocorrect: false
+ - firebase needs initialization before other calls to firebase, we also need to enabling widget binding before Firebase.initializaApp, (read doc)
+ - FutureBuilder : it takes and perform the future, once succed or rejected, it will give callback that ask us to produce a widget that will displays to the user depending on state.
+
+CHAPTER 13 
+- 
+
+CHAPTER 14
+- email verification is important coz when someone registers using our email, then we register after that with our original email, in result, our email has been taken we can't use our email to registered to app, it can be a big problem.
+
+CHAPTER 15
+- refer to github folder in kelasfullstackdev
+- GPG Keys : 
+
+CHAPTER 16 
+- BuildContext : like a packaged bit of information that we use to pass data from one widget to other and it's very useful when we using bloc
+
+CHAPTER 17 
+ - Named routed : we tell flutter about that route so when we initialize project, the flutter knows the route's name. 
+ test
+
+ CHAPTER 18 
+  - AppBar : able to display title, appbar also has it own theme
+  - import 'dart:developer' show log: means import specific packet of this package called log
+  - use log instead of print coz log can show a little bit more distinct code than the debug code
+
+CHAPTER 19
+ - pushNamedAndRemoveUntil : 1 pushName = it has a route and we're trying to push that using its name
+                             2 removeUntil = remove the previous views that we don't need from the view stack
+
+CHAPTER 20 
+ - hardcoding : 
+ CHAPTER 24
+ - We shoudn't expose Firebase's user to the UI
+ - @immutable : means that class or subclasses are immutable meaning that the internal are never gonna be change upon initialization, they also can't have any field that change
+
+ CHAPTER 25 
+ - we need unit tests coz we need to guard ourselves against unintentional edits
+ - TDD : tests need to always be written before code, not the other way around
+ - unit test : we have a piece of code isolated and we wanna test that code to ensure that different function that code working as they should.
+ - widget test : a way for us to make sure that our widget like UI we are made is working as they should. 
+ - integration test : 
+ - dev dependencies : dependencies that we use and bring to the application only during the development. 
+ - why we need mock : when we create a function or class and then we need inject those into another place and test those in another place
+ - 
