@@ -72,4 +72,6 @@ CHAPTER 20
  - integration test : 
  - dev dependencies : dependencies that we use and bring to the application only during the development. 
  - why we need mock : when we create a function or class and then we need inject those into another place and test those in another place
+ 
+ CHAPTER 27 
  - 
