@@ -75,3 +75,10 @@ CHAPTER 20
  
  CHAPTER 27 
  - 
+
+ CHAPTER 28 
+ - reactive programming : means where we have a bunch of data sitting somewhere for instance and then we perform some operations on that data and this data gets updated and we'll be notified of these updates through some sort of a pipe of information.
+ - stream is just a point of time or stream is basically an entity that controls data and then we perform things on it like add this data or remove it. 
+ - stream also keeps hold of its data and it has a timeline. So it starts at some point manipulates its data and it either errors out the end or it will just complete at some point.
+ - just think of streams as pipes of data types of information that we can manipulate and we can also perform operations on it.
+ - stream controller in dart is your interface to your streams, imagine we have stream somewhere and we can't basically usually go and add stuff to a stream directly or read stuff from the stream, what we can do is to have a stream controller where we're manipulating the stream for instance our note service and this stream controller is able to for instance add stuff to the stream or read it.
