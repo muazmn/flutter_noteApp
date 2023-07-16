@@ -13,12 +13,17 @@ class NotesService {
   List<DatabaseNote> _notes = [];
 
   static final NotesService _shared = NotesService._sharedInstance();
-  NotesService._sharedInstance();
+  NotesService._sharedInstance() {
+    _notesStreamController = StreamController<List<DatabaseNote>>.broadcast(
+      onListen: () {
+        _notesStreamController.sink.add(_notes);
+      },
+    );
+  }
   factory NotesService() => _shared;
 
   //control a stream of a list of database notes basically like we have a pipe and every event inside this pipe is a list of database
-  final _notesStreamController =
-      StreamController<List<DatabaseNote>>.broadcast();
+  late final StreamController<List<DatabaseNote>> _notesStreamController;
 
   // a stream is just the evolution of the values through time and the first point of this evolution was an empty list and then the next one is gonna be the notes that are all the notes are in the database
   Future<void> _cacheNotes() async {
