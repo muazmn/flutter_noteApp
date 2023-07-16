@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_docbook/constants/routes.dart';
 import 'package:flutter_docbook/views/login_view.dart';
-import 'package:flutter_docbook/views/notes/new_note_view.dart';
+import 'package:flutter_docbook/views/notes/create_update_note_view.dart';
 import 'package:flutter_docbook/views/notes/notes_view.dart';
 import 'package:flutter_docbook/views/register_view.dart';
 import 'package:flutter_docbook/views/verify_email_view.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
         verifyEmailRoute: (context) => const VerifyEmailView(),
-        newNoteRoute: (context) => const newNoteView()
+        createOrUpdateNoteRoute: (context) => const CreateUpdateNoteView()
       },
     );
   }
