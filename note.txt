@@ -87,3 +87,25 @@ CHAPTER 20
  ChAPTER 29
  - FutureBuilder : 
  - singleton : a pattern exists in design pattern topics
+
+ CHAPTER 36 (writing notes to cloud firestore)
+ - collection : collections in firestore like a group of related objects, we can interpret them as table like in relational databases
+ - collection : firebase.flutter.dev/docs/firestore/usage(reference)
+
+
+
+
+
+
+
+
+
+
+ revise 
+ 1 . unwrap !
+ 2 . datatype and generics 
+ 3 . exceptions 
+ 4 . class and objects 
+ 5 . snapshots
+ 6 . iterable
+ 7 . stream
