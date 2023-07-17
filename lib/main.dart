@@ -8,7 +8,6 @@ import 'package:flutter_docbook/views/notes/notes_view.dart';
 import 'package:flutter_docbook/views/register_view.dart';
 import 'package:flutter_docbook/views/verify_email_view.dart';
 import 'firebase_options.dart';
-import 'dart:developer' show log;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
