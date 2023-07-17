@@ -92,6 +92,15 @@ CHAPTER 20
  - collection : collections in firestore like a group of related objects, we can interpret them as table like in relational databases
  - collection : firebase.flutter.dev/docs/firestore/usage(reference)
 
+ CHAPTER 39(bloc)
+ - bloc allows us to separate business logic from presentation
+ - bloc is a container,just imagine a class that we add event to it and every event we add to it, then a state produced.
+ - bloc output is always a state for instance login, logout, err and etc.
+ - bloc input is event from user like login with email and password and etc
+ - BlocProvider : a class that create a bloc instance for us and it will allows us to do something with that bloc
+ - BlocListener : listen to change of our bloc
+ - BlocBuilder : as we have a bloc provider which is it give us chance to create a child, and inside this child we can then provide a blocbuilder that listens for changes inside our bloc then it allows us to build new widgets based on those changes
+ - BlocConsumer : combines BlocListener and blocbuilder, BlocConsumer listens the changes that happen inside our bloc and then it would allows us to do both a side effect and it will also allows us to create a widget to display to the user based on those changes.
 
 
 
