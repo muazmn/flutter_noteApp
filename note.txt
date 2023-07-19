@@ -105,6 +105,10 @@ CHAPTER 20
  CHAPTER 43(Loading screens)
  - overlays has ability to place themselves over other content that's currently displayed on the screen, we can use overlays if we wanna make loading screen coz loading screen usually displayed on top of the current content
 
+ CHAPTER 45(app names and icon)
+ - splash screens : is little screen that the os displays on the screen and as soon as we open an app
+ - 
+
 
 
 
