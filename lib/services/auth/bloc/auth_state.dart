@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_docbook/services/auth/auth_user.dart';
+import 'package:note_app/services/auth/auth_user.dart';
 
 @immutable
 abstract class AuthState {

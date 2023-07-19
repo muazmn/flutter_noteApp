@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_docbook/services/auth/auth_provider.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_event.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_state.dart';
+import 'package:note_app/services/auth/auth_provider.dart';
+import 'package:note_app/services/auth/bloc/auth_event.dart';
+import 'package:note_app/services/auth/bloc/auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc(AuthProvider provider)

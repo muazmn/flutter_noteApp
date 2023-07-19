@@ -1,4 +1,4 @@
-# flutter_docbook
+# note_app
 
 A new Flutter project.
 

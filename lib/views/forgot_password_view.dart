@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_bloc.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_event.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_state.dart';
-import 'package:flutter_docbook/utilities/dialogs/error_dialog.dart';
-import 'package:flutter_docbook/utilities/dialogs/password_reset_email_sent_dialog.dart';
+import 'package:note_app/services/auth/bloc/auth_bloc.dart';
+import 'package:note_app/services/auth/bloc/auth_event.dart';
+import 'package:note_app/services/auth/bloc/auth_state.dart';
+import 'package:note_app/utilities/dialogs/error_dialog.dart';
+import 'package:note_app/utilities/dialogs/password_reset_email_sent_dialog.dart';
 
 class ForgotPasswordView extends StatefulWidget {
   const ForgotPasswordView({Key? key}) : super(key: key);

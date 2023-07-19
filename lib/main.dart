@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_docbook/constants/routes.dart';
-import 'package:flutter_docbook/helpers/loading/loading_screen.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_bloc.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_event.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_state.dart';
-import 'package:flutter_docbook/services/auth/firebase_auth_provider.dart';
-import 'package:flutter_docbook/views/forgot_password_view.dart';
-import 'package:flutter_docbook/views/login_view.dart';
-import 'package:flutter_docbook/views/notes/create_update_note_view.dart';
-import 'package:flutter_docbook/views/notes/notes_view.dart';
-import 'package:flutter_docbook/views/register_view.dart';
-import 'package:flutter_docbook/views/verify_email_view.dart';
+import 'package:note_app/constants/routes.dart';
+import 'package:note_app/helpers/loading/loading_screen.dart';
+import 'package:note_app/services/auth/bloc/auth_bloc.dart';
+import 'package:note_app/services/auth/bloc/auth_event.dart';
+import 'package:note_app/services/auth/bloc/auth_state.dart';
+import 'package:note_app/services/auth/firebase_auth_provider.dart';
+import 'package:note_app/views/forgot_password_view.dart';
+import 'package:note_app/views/login_view.dart';
+import 'package:note_app/views/notes/create_update_note_view.dart';
+import 'package:note_app/views/notes/notes_view.dart';
+import 'package:note_app/views/register_view.dart';
+import 'package:note_app/views/verify_email_view.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

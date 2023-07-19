@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_docbook/services/cloud/cloud_storage_contants.dart';
-import 'package:flutter_docbook/services/cloud/cloud_storage_exceptions.dart';
+import 'package:note_app/services/cloud/cloud_storage_contants.dart';
+import 'package:note_app/services/cloud/cloud_storage_exceptions.dart';
 
 import 'cloud_note.dart';
 

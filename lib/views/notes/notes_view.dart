@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_docbook/constants/routes.dart';
-import 'package:flutter_docbook/enums/menu_action.dart';
-import 'package:flutter_docbook/services/auth/auth_service.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_bloc.dart';
-import 'package:flutter_docbook/services/auth/bloc/auth_event.dart';
-import 'package:flutter_docbook/services/cloud/cloud_note.dart';
-import 'package:flutter_docbook/services/cloud/firebase_cloud_storage.dart';
-import 'package:flutter_docbook/utilities/dialogs/logout_dialog.dart';
-import 'package:flutter_docbook/views/notes/notes_list_view.dart';
+import 'package:note_app/constants/routes.dart';
+import 'package:note_app/enums/menu_action.dart';
+import 'package:note_app/services/auth/auth_service.dart';
+import 'package:note_app/services/auth/bloc/auth_bloc.dart';
+import 'package:note_app/services/auth/bloc/auth_event.dart';
+import 'package:note_app/services/cloud/cloud_note.dart';
+import 'package:note_app/services/cloud/firebase_cloud_storage.dart';
+import 'package:note_app/utilities/dialogs/logout_dialog.dart';
+import 'package:note_app/views/notes/notes_list_view.dart';
 
 class NotesView extends StatefulWidget {
   const NotesView({Key? key}) : super(key: key);

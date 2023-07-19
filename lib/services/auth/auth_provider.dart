@@ -1,4 +1,4 @@
-import 'package:flutter_docbook/services/auth/auth_user.dart';
+import 'package:note_app/services/auth/auth_user.dart';
 
 abstract class AuthProvider {
   Future<void> initialize();
